@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Bebas+Neue&family=Domine:wght@500&family=DynaPuff&family=Euphoria+Script&family=Hi+Melody&family=Londrina+Solid:wght@100&family=Oleo+Script+Swash+Caps&family=Playfair+Display+SC&family=Rancho&family=Roboto+Slab:wght@300&family=Sue+Ellen+Francisco&family=Tiro+Bangla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rancho';
+}
+.container2{
+    border: 2px solid #bf1dff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #cc88ee69;
+}
+.mainpar{
+    margin-top: 5px;
+}
+.tp{
+    /* margin-top: 20px; */
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 200px;
+    text-align: justify;
+    /* align-items: center; */
+}
+.container2 a{
+    text-decoration: none;
+    color: #001aff;
+}
+.container2 a{
+    text-decoration: none;
+    color: #2339ff;
+}
+.ctr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 500px) and (max-width: 1028px) {
+    .tp{
+        font-size: 30px;
+        margin: 0px 100px;
+    }
+}
+
+@media (min-width: 2px) and (max-width: 501px) {
+    .tp{
+        font-size: 25px;
+        margin: 0px 28px;
+    }
+}
